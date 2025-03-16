@@ -2360,6 +2360,19 @@ singe:
   comment_br: |
     Para mais informações: https://wiki.batocera.org/systems:singe
 
+dice:
+  name:       DICE
+  manufacturer: Arcade
+  release: 1972
+  hardware: arcade
+  extensions: [zip, dmy]
+  platform:   arcade
+  emulators:
+    libretro:
+      dice:    { requireAnyOf: [BR2_PACKAGE_LIBRETRO_DICE]    }
+  comment_en: |
+    Games without any ROM component use .dmy files as dummy launchers.
+
 thextech:
   name:       TheXTech
   manufacturer: Wohlstand
