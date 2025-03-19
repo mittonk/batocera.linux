@@ -869,6 +869,20 @@ devilutionx:
     * Espanhol: https://github.com/diasurgical/devilutionx-assets/releases/download/v4/es.mpq
 
 
+dice:
+  name:       DICE
+  manufacturer: Arcade
+  release: 1972
+  hardware: arcade
+  extensions: [zip, dmy]
+  platform:   arcade
+  emulators:
+    libretro:
+      dice:  { requireAnyOf: [BR2_PACKAGE_LIBRETRO_DICE]  }
+  comment_en: |
+    .dmy files are used to launch games that do not include a ROM component.
+
+
 fbneo:
   name:       Final Burn Neo
   manufacturer: Arcade
