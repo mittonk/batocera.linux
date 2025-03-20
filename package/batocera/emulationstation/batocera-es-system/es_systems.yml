@@ -2366,12 +2366,15 @@ dice:
   release: 1972
   hardware: arcade
   extensions: [zip, dmy]
-  platform:   arcade
+  platform:   dice, arcade
   emulators:
     libretro:
       dice:    { requireAnyOf: [BR2_PACKAGE_LIBRETRO_DICE]    }
   comment_en: |
     Games without any ROM component use .dmy files as dummy launchers.
+
+    For more info: https://wiki.batocera.org/arcade
+
 
 thextech:
   name:       TheXTech
